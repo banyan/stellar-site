@@ -29,16 +29,16 @@
 
   <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
   <script type="text/javascript">
-  Hatena.Star.Token = '9b66193df72b5c6405b965ec102b302e392330bc';
-  Hatena.Star.SiteConfig = {
-    entryNodes: {
-      'div.container': {
-        uri: 'h1.entry-title a',
-        title: 'h1.entry-title',
-        container: 'div.entry-title-container'
+    Hatena.Star.Token = '9b66193df72b5c6405b965ec102b302e392330bc';
+    Hatena.Star.SiteConfig = {
+      entryNodes: {
+        'div.container': {
+          uri: 'h1.entry-title a',
+          title: 'h1.entry-title',
+          container: 'div.entry-title-container'
+        }
       }
-    }
-  };
+    };
   </script>
 
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
@@ -83,9 +83,7 @@
         <a href="{{ prev_page.link }}">previous post</a>
         {% endif %}
       </div>
-
     </div>
-
     <div class="autopagerize_insert_before"></div>
   </div>
 </body>
